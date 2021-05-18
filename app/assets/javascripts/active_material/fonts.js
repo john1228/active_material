@@ -13,7 +13,7 @@ WebFontConfig = {
 (function() {
   var wf = document.createElement('script');
   wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://fdn.geekzu.org/ajax/ajax/libs/webfont/1.6.16/webfont.js';
+    '://cdn.bootcdn.net/ajax/libs/webfont/1.6.9/webfontloader.js';
   wf.type = 'text/javascript';
   wf.async = 'true';
   var s = document.getElementsByTagName('script')[0];
